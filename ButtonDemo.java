@@ -110,8 +110,8 @@ import javax.swing.*;
 	    	            raf.writeBytes("Email:"+mail+ "\r\n");
 	    	            raf.writeBytes("Password:"+pswd+ "\r\n");
 	    	            raf.writeBytes("Username:"+usr+ "\r\n");
-	    	            raf.writeBytes("Country:"+con+ "\r\n");
-	    	            raf.writeBytes("State:"+state+ "\r\n");
+	    	            raf.writeBytes("College name:"+con+ "\r\n");
+	    	            raf.writeBytes("Adress:"+state+ "\r\n");
 	    	            raf.writeBytes("Phone No:"+Phn);
 	    	            
 	    	        } catch (FileNotFoundException ex) {
@@ -151,8 +151,8 @@ import javax.swing.*;
 	    	        l3 = new JLabel("Email-ID:");  
 	    	        l4 = new JLabel("Create Passowrd:");  
 	    	        l5 = new JLabel("Confirm Password:");  
-	    	        l6 = new JLabel("Country:");  
-	    	        l7 = new JLabel("State:");  
+	    	        l6 = new JLabel("College Name :");  
+	    	        l7 = new JLabel("Address:");  
 	    	        l8 = new JLabel("Phone No:");   
 	    	        tf1 = new JTextField();  
 	    	        tf2 = new JTextField();  
